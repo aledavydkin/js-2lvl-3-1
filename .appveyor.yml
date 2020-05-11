@@ -1,8 +1,9 @@
 image: Ubuntu1804 # образ для сборки
 stack: node 12 # окружение
-branches: master
-only:
-  - master # ветка git
+branches:
+  # whitelist
+  only:
+    - master
 cache: node_modules # кеширование
 install:
   - npm install # команда установки зависимостей
