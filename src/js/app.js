@@ -1,3 +1,3 @@
-import{ stripOfLife, data } from './game';
+import { stripOfLife, data } from './game';
 
 stripOfLife(data);
